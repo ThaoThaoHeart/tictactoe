@@ -1,0 +1,14 @@
+.boardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.square {
+  border: 1px solid black;
+  padding: 20%;
+}
+
+.clicked {
+  pointer-events: none;
+}
